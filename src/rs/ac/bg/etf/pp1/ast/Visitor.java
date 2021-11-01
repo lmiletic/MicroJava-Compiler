@@ -1,0 +1,112 @@
+// generated with ast extension for cup
+// version 0.8
+// 28/5/2021 22:14:45
+
+
+package rs.ac.bg.etf.pp1.ast;
+
+public interface Visitor { 
+
+    public void visit(Mulop Mulop);
+    public void visit(Constant Constant);
+    public void visit(Relop Relop);
+    public void visit(CondTermList CondTermList);
+    public void visit(AddOpList AddOpList);
+    public void visit(StatementList StatementList);
+    public void visit(Addop Addop);
+    public void visit(Factor Factor);
+    public void visit(CondFactList CondFactList);
+    public void visit(DeclList DeclList);
+    public void visit(Designator Designator);
+    public void visit(LocalVars LocalVars);
+    public void visit(MultiVarDecl MultiVarDecl);
+    public void visit(ElseStatement ElseStatement);
+    public void visit(MayMinus MayMinus);
+    public void visit(MulOpList MulOpList);
+    public void visit(MultiConstDecl MultiConstDecl);
+    public void visit(DesignatorStatement DesignatorStatement);
+    public void visit(Statement Statement);
+    public void visit(VarDecl VarDecl);
+    public void visit(CondFact CondFact);
+    public void visit(PrintExpr PrintExpr);
+    public void visit(Mod Mod);
+    public void visit(Div Div);
+    public void visit(Mul Mul);
+    public void visit(Minus Minus);
+    public void visit(Plus Plus);
+    public void visit(LowerEqual LowerEqual);
+    public void visit(Lower Lower);
+    public void visit(GreaterEqual GreaterEqual);
+    public void visit(Greater Greater);
+    public void visit(Distinct Distinct);
+    public void visit(Equals Equals);
+    public void visit(Assignop Assignop);
+    public void visit(DesignatorNameArray DesignatorNameArray);
+    public void visit(DesignatorArray DesignatorArray);
+    public void visit(DesignatorSingle DesignatorSingle);
+    public void visit(DsgHash DsgHash);
+    public void visit(DsgDec DsgDec);
+    public void visit(DsgInc DsgInc);
+    public void visit(DsgExpr DsgExpr);
+    public void visit(FactorExpr FactorExpr);
+    public void visit(FactorNewExpr FactorNewExpr);
+    public void visit(FactorBool FactorBool);
+    public void visit(FactorChar FactorChar);
+    public void visit(FactorNum FactorNum);
+    public void visit(FactorDsg FactorDsg);
+    public void visit(NoMoreMulOps NoMoreMulOps);
+    public void visit(MoreMulOps MoreMulOps);
+    public void visit(Term Term);
+    public void visit(NoMoreAddOps NoMoreAddOps);
+    public void visit(MoreAddOps MoreAddOps);
+    public void visit(NoMinus NoMinus);
+    public void visit(YesMinus YesMinus);
+    public void visit(Expr Expr);
+    public void visit(CondExprRelop CondExprRelop);
+    public void visit(CondExpr CondExpr);
+    public void visit(FirstCondFact FirstCondFact);
+    public void visit(MoreCondFact MoreCondFact);
+    public void visit(CondTerm CondTerm);
+    public void visit(FirstCondTerm FirstCondTerm);
+    public void visit(MoreCondTerm MoreCondTerm);
+    public void visit(Condition Condition);
+    public void visit(WithOutNumConst WithOutNumConst);
+    public void visit(WithNumConst WithNumConst);
+    public void visit(Label Label);
+    public void visit(NoMoreStatements NoMoreStatements);
+    public void visit(MoreStatementsLabel MoreStatementsLabel);
+    public void visit(MoreStatements MoreStatements);
+    public void visit(ElseNonTerm ElseNonTerm);
+    public void visit(ElseFalse ElseFalse);
+    public void visit(ElseTrue ElseTrue);
+    public void visit(GoTo GoTo);
+    public void visit(Statements Statements);
+    public void visit(Print Print);
+    public void visit(Read Read);
+    public void visit(Return Return);
+    public void visit(IfStatement IfStatement);
+    public void visit(DesignatorStatements DesignatorStatements);
+    public void visit(NoLocalVars NoLocalVars);
+    public void visit(YesLocalVars YesLocalVars);
+    public void visit(MethodMain MethodMain);
+    public void visit(MethodDecl MethodDecl);
+    public void visit(Type Type);
+    public void visit(ConstChar ConstChar);
+    public void visit(ConstBool ConstBool);
+    public void visit(ConstNum ConstNum);
+    public void visit(ConstDecl ConstDecl);
+    public void visit(NoConstDecl NoConstDecl);
+    public void visit(MultiConstDeclarations MultiConstDeclarations);
+    public void visit(ConstDeclList ConstDeclList);
+    public void visit(SingleVarDecl SingleVarDecl);
+    public void visit(ArrayVarDecl ArrayVarDecl);
+    public void visit(NoVarDecl NoVarDecl);
+    public void visit(MultiVarDeclarations MultiVarDeclarations);
+    public void visit(VarDeclList VarDeclList);
+    public void visit(DeclNo DeclNo);
+    public void visit(DeclConst DeclConst);
+    public void visit(DeclVar DeclVar);
+    public void visit(ProgramName ProgramName);
+    public void visit(Program Program);
+
+}

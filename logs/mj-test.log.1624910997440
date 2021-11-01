@@ -1,0 +1,9 @@
+INFO  22:09:29,809 - Compiling source file: C:\Users\Luka\Desktop\PP1 projekat\projekat\workspace\MJCompiler\test\program.mj
+INFO  22:09:29,813 - =================================== Lexer ===================================
+INFO  22:09:29,881 - #2 program
+INFO  22:09:29,881 - #33 if
+ERROR 22:09:29,882 - 
+Sintaksna greska na liniji 3
+ERROR 22:09:29,885 - 
+Fatalna greska, parsiranje se ne moze nastaviti na liniji 3
+INFO  22:09:29,886 - =================================== Parser ===================================

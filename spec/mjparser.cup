@@ -1,0 +1,204 @@
+
+package rs.ac.bg.etf.pp1;
+
+import java_cup.runtime.*;
+import org.apache.log4j.*;
+import rs.ac.bg.etf.pp1.ast.*;
+
+parser code {:
+
+	boolean errorDetected;
+	int line;
+
+	Logger log = Logger.getLogger(getClass());
+   
+    // slede redefinisani metodi za prijavu gresaka radi izmene teksta poruke
+     
+    public void report_fatal_error(String message, Object info) throws java.lang.Exception {
+      done_parsing();
+      report_error(message, info);
+    }
+  
+    public void syntax_error(Symbol cur_token) {
+        report_error("\nSintaksna greska", cur_token);
+    }
+  
+    public void unrecovered_syntax_error(Symbol cur_token) throws java.lang.Exception {
+        report_fatal_error("\nFatalna greska, parsiranje se ne moze nastaviti", cur_token);
+    }
+
+    public void report_error(String message, Object info) {
+    	errorDetected = true;
+    	StringBuilder msg = new StringBuilder(message); 
+    	if (info instanceof Symbol){
+            msg.append (" na liniji ").append(((Symbol)info).left);
+            line = ((Symbol)info).left;
+        }
+        log.error(msg.toString());
+        CompilerErrorList.addError(line, msg.toString(), 1);
+    }
+
+
+:}
+
+init with {:
+	errorDetected = false;
+	line = 0;
+:}
+
+scan with {:
+	Symbol s = this.getScanner().next_token();
+	if (s != null && s.value != null) 
+		log.info(s.toString() + " " + s.value.toString());
+	return s;
+:}
+
+terminal PROG, LBRACE, RBRACE, SEMI, COMMA, CONST, EQUAL, VOID, LPAREN, RPAREN, LBRACKET,RBRACKET;
+terminal PLUS, MINUS, MUL, DIV, MOD, EQUALS, DISTINCT, GREATER, GREATEREQUAL, LOWER, LOWEREQUAL;
+terminal RETURN, PRINT, READ;
+terminal INC, DEC, AND, OR, NEW, IF, ELSE;
+terminal MAIN;
+terminal HASH, GOTO, COLON;
+
+terminal Integer NUMBER;
+terminal String IDENT;
+terminal Integer BOOLEAN;
+terminal Character CHAR;
+
+nonterminal Program, ProgramName, DeclList;
+nonterminal VarDeclList, MultiVarDecl, VarDecl;
+nonterminal ConstDeclList, MultiConstDecl, ConstDecl, Constant;
+nonterminal MethodDecl, MethodMain, LocalVars;
+nonterminal Statement, StatementList, PrintExpr, ElseStatement, ElseNonTerm, MayMinus;
+nonterminal DesignatorStatement, Assignop, Relop, Addop, Mulop;
+
+nonterminal rs.etf.pp1.symboltable.concepts.Struct Type;
+nonterminal rs.etf.pp1.symboltable.concepts.Struct Expr, AddOpList, MulOpList, Factor, Term;
+nonterminal rs.etf.pp1.symboltable.concepts.Struct Condition, CondTerm, CondTermList, CondFact, CondFactList;
+
+nonterminal Label;
+
+nonterminal rs.etf.pp1.symboltable.concepts.Obj DesignatorNameArray, Designator;
+
+precedence left ELSE;
+
+Program ::= (Program) PROG ProgramName DeclList LBRACE MethodDecl RBRACE;
+
+ProgramName ::= (ProgramName) IDENT;
+
+DeclList ::= (DeclVar) DeclList VarDeclList
+			| (DeclConst) DeclList ConstDeclList
+			| (DeclNo) /*epsilon*/;
+			
+VarDeclList ::= (VarDeclList) Type:varType MultiVarDecl VarDecl SEMI;
+
+MultiVarDecl ::= (MultiVarDeclarations) MultiVarDecl VarDecl COMMA
+				| (NoVarDecl) /*epsilon*/;
+					
+VarDecl ::= (ArrayVarDecl) IDENT:varName LBRACKET RBRACKET
+			|(SingleVarDecl) IDENT:varName;
+			
+ConstDeclList ::= (ConstDeclList) CONST Type:constType MultiConstDecl ConstDecl SEMI;
+
+MultiConstDecl ::= (MultiConstDeclarations) MultiConstDecl ConstDecl COMMA
+				| (NoConstDecl) /*epsilon*/;
+
+ConstDecl ::= (ConstDecl) IDENT:constName EQUAL Constant;
+
+Constant ::= (ConstNum) NUMBER
+			| (ConstBool) BOOLEAN
+			| (ConstChar) CHAR;
+
+Type ::= (Type) IDENT:typeName;
+
+
+MethodDecl ::= (MethodDecl) VOID MethodMain LPAREN RPAREN LocalVars LBRACE StatementList RBRACE;
+
+MethodMain ::= (MethodMain) MAIN;
+			
+LocalVars ::= (YesLocalVars) LocalVars VarDeclList
+			| (NoLocalVars) /*epsilon*/;
+			
+						
+Statement ::= (DesignatorStatements) DesignatorStatement SEMI
+			| (IfStatement) IF LPAREN Condition RPAREN Statement ElseStatement
+			| (Return) RETURN SEMI
+			| (Read) READ LPAREN Designator RPAREN SEMI
+			| (Print) PrintExpr SEMI
+			| (Statements) LBRACE StatementList RBRACE
+			| (GoTo) GOTO IDENT:labelname SEMI;
+			
+ElseStatement ::= (ElseTrue) ElseNonTerm Statement
+		 | (ElseFalse) /*epsilon*/;
+		 
+ElseNonTerm ::= (ElseNonTerm) ELSE;
+			
+			
+StatementList ::= (MoreStatements) StatementList Statement
+				| (MoreStatementsLabel) StatementList Label Statement
+				| (NoMoreStatements) /*epsilon*/;
+				
+Label ::= (Label) IDENT:labelname COLON;
+			
+PrintExpr ::= (WithNumConst) PRINT LPAREN Expr COMMA NUMBER RPAREN
+			| (WithOutNumConst) PRINT LPAREN Expr RPAREN;
+			
+Condition ::= (Condition) CondTermList;
+			
+CondTermList ::= (MoreCondTerm) CondTermList OR CondTerm
+			 | (FirstCondTerm) CondTerm;
+			
+CondTerm ::= (CondTerm) CondFactList;
+
+CondFactList ::= (MoreCondFact) CondFactList AND CondFact
+				| (FirstCondFact)  CondFact;
+		
+CondFact ::= (CondExpr) Expr
+			| (CondExprRelop) Expr Relop Expr;
+			
+Expr ::= (Expr) MayMinus AddOpList;
+
+MayMinus ::= (YesMinus) MINUS
+			| (NoMinus) /*epsilon*/;	
+		
+AddOpList ::= (MoreAddOps) AddOpList Addop Term
+			| (NoMoreAddOps) Term;
+			
+Term ::= (Term) MulOpList;
+
+MulOpList ::= (MoreMulOps) MulOpList Mulop Factor
+			| (NoMoreMulOps) Factor;
+
+Factor ::= (FactorDsg) Designator
+		 | (FactorNum) NUMBER
+		 | (FactorChar) CHAR
+		 | (FactorBool) BOOLEAN
+		 | (FactorNewExpr) NEW Type LBRACKET Expr RBRACKET
+		 | (FactorExpr) LPAREN Expr RPAREN;
+		 
+DesignatorStatement ::= (DsgExpr) Designator Assignop Expr
+					| (DsgInc) Designator INC
+					| (DsgDec) Designator DEC
+					| (DsgHash) Designator HASH;
+										
+			
+Designator ::= (DesignatorSingle) IDENT:dsgName 
+			| (DesignatorArray)  DesignatorNameArray LBRACKET Expr RBRACKET;
+			
+DesignatorNameArray ::= (DesignatorNameArray) IDENT:dsgName;
+			
+Assignop ::= (Assignop) EQUAL;
+
+Relop ::= (Equals) EQUALS 
+		| (Distinct) DISTINCT
+		| (Greater) GREATER
+		| (GreaterEqual) GREATEREQUAL
+		| (Lower) LOWER
+		| (LowerEqual) LOWEREQUAL;
+		
+Addop ::= (Plus) PLUS
+		| (Minus) MINUS;
+		
+Mulop ::= (Mul) MUL
+		| (Div) DIV
+		| (Mod) MOD;

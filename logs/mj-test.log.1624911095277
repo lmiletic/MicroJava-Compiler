@@ -1,0 +1,320 @@
+INFO  22:09:57,447 - Compiling source file: C:\Users\Luka\Desktop\PP1 projekat\projekat\workspace\MJCompiler\test\program.mj
+INFO  22:09:57,452 - =================================== Lexer ===================================
+INFO  22:09:57,510 - #2 program
+INFO  22:09:57,510 - #40 programIf
+INFO  22:09:57,510 - #3 {
+INFO  22:09:57,512 - #9 void
+INFO  22:09:57,512 - #35 main
+INFO  22:09:57,512 - #10 (
+INFO  22:09:57,513 - #11 )
+INFO  22:09:57,513 - #3 {
+INFO  22:09:57,514 - #33 if
+INFO  22:09:57,515 - #10 (
+INFO  22:09:57,515 - #41 1
+INFO  22:09:57,517 - #11 )
+INFO  22:09:57,520 - #3 {
+INFO  22:09:57,520 - #26 print
+INFO  22:09:57,520 - #10 (
+INFO  22:09:57,520 - #42 t
+INFO  22:09:57,520 - #11 )
+INFO  22:09:57,521 - #5 ;
+INFO  22:09:57,521 - #33 if
+INFO  22:09:57,521 - #10 (
+INFO  22:09:57,522 - #41 1
+INFO  22:09:57,522 - #11 )
+INFO  22:09:57,522 - #3 {
+INFO  22:09:57,522 - #26 print
+INFO  22:09:57,522 - #10 (
+INFO  22:09:57,522 - #42 t
+INFO  22:09:57,522 - #11 )
+INFO  22:09:57,523 - #5 ;
+INFO  22:09:57,523 - #4 }
+INFO  22:09:57,523 - #34 else
+INFO  22:09:57,523 - #3 {
+INFO  22:09:57,524 - #26 print
+INFO  22:09:57,524 - #10 (
+INFO  22:09:57,524 - #42 e
+INFO  22:09:57,524 - #11 )
+INFO  22:09:57,524 - #5 ;
+INFO  22:09:57,524 - #4 }
+INFO  22:09:57,524 - #4 }
+INFO  22:09:57,525 - #34 else
+INFO  22:09:57,525 - #3 {
+INFO  22:09:57,525 - #26 print
+INFO  22:09:57,525 - #10 (
+INFO  22:09:57,525 - #42 e
+INFO  22:09:57,526 - #11 )
+INFO  22:09:57,526 - #5 ;
+INFO  22:09:57,526 - #33 if
+INFO  22:09:57,526 - #10 (
+INFO  22:09:57,526 - #41 1
+INFO  22:09:57,527 - #11 )
+INFO  22:09:57,527 - #3 {
+INFO  22:09:57,527 - #26 print
+INFO  22:09:57,528 - #10 (
+INFO  22:09:57,528 - #42 t
+INFO  22:09:57,528 - #11 )
+INFO  22:09:57,529 - #5 ;
+INFO  22:09:57,529 - #4 }
+INFO  22:09:57,529 - #34 else
+INFO  22:09:57,529 - #3 {
+INFO  22:09:57,529 - #26 print
+INFO  22:09:57,529 - #10 (
+INFO  22:09:57,529 - #42 e
+INFO  22:09:57,529 - #11 )
+INFO  22:09:57,530 - #5 ;
+INFO  22:09:57,531 - #4 }
+INFO  22:09:57,531 - #4 }
+INFO  22:09:57,532 - #4 }
+INFO  22:09:57,532 - #4 }
+INFO  22:09:57,535 - =================================== Parser ===================================
+INFO  22:09:57,540 - Program(
+  ProgramName(
+   programIf
+  ) [ProgramName]
+  DeclNo(
+  ) [DeclNo]
+  MethodDecl(
+    MethodMain(
+    ) [MethodMain]
+    NoLocalVars(
+    ) [NoLocalVars]
+    MoreStatements(
+      NoMoreStatements(
+      ) [NoMoreStatements]
+      IfStatement(
+        Condition(
+          FirstCondTerm(
+            CondTerm(
+              FirstCondFact(
+                CondExpr(
+                  Expr(
+                    NoMinus(
+                    ) [NoMinus]
+                    NoMoreAddOps(
+                      Term(
+                        NoMoreMulOps(
+                          FactorBool(
+                           1
+                          ) [FactorBool]
+                        ) [NoMoreMulOps]
+                      ) [Term]
+                    ) [NoMoreAddOps]
+                  ) [Expr]
+                ) [CondExpr]
+              ) [FirstCondFact]
+            ) [CondTerm]
+          ) [FirstCondTerm]
+        ) [Condition]
+        Statements(
+          MoreStatements(
+            MoreStatements(
+              NoMoreStatements(
+              ) [NoMoreStatements]
+              Print(
+                WithOutNumConst(
+                  Expr(
+                    NoMinus(
+                    ) [NoMinus]
+                    NoMoreAddOps(
+                      Term(
+                        NoMoreMulOps(
+                          FactorChar(
+                           t
+                          ) [FactorChar]
+                        ) [NoMoreMulOps]
+                      ) [Term]
+                    ) [NoMoreAddOps]
+                  ) [Expr]
+                ) [WithOutNumConst]
+              ) [Print]
+            ) [MoreStatements]
+            IfStatement(
+              Condition(
+                FirstCondTerm(
+                  CondTerm(
+                    FirstCondFact(
+                      CondExpr(
+                        Expr(
+                          NoMinus(
+                          ) [NoMinus]
+                          NoMoreAddOps(
+                            Term(
+                              NoMoreMulOps(
+                                FactorBool(
+                                 1
+                                ) [FactorBool]
+                              ) [NoMoreMulOps]
+                            ) [Term]
+                          ) [NoMoreAddOps]
+                        ) [Expr]
+                      ) [CondExpr]
+                    ) [FirstCondFact]
+                  ) [CondTerm]
+                ) [FirstCondTerm]
+              ) [Condition]
+              Statements(
+                MoreStatements(
+                  NoMoreStatements(
+                  ) [NoMoreStatements]
+                  Print(
+                    WithOutNumConst(
+                      Expr(
+                        NoMinus(
+                        ) [NoMinus]
+                        NoMoreAddOps(
+                          Term(
+                            NoMoreMulOps(
+                              FactorChar(
+                               t
+                              ) [FactorChar]
+                            ) [NoMoreMulOps]
+                          ) [Term]
+                        ) [NoMoreAddOps]
+                      ) [Expr]
+                    ) [WithOutNumConst]
+                  ) [Print]
+                ) [MoreStatements]
+              ) [Statements]
+              ElseTrue(
+                ElseNonTerm(
+                ) [ElseNonTerm]
+                Statements(
+                  MoreStatements(
+                    NoMoreStatements(
+                    ) [NoMoreStatements]
+                    Print(
+                      WithOutNumConst(
+                        Expr(
+                          NoMinus(
+                          ) [NoMinus]
+                          NoMoreAddOps(
+                            Term(
+                              NoMoreMulOps(
+                                FactorChar(
+                                 e
+                                ) [FactorChar]
+                              ) [NoMoreMulOps]
+                            ) [Term]
+                          ) [NoMoreAddOps]
+                        ) [Expr]
+                      ) [WithOutNumConst]
+                    ) [Print]
+                  ) [MoreStatements]
+                ) [Statements]
+              ) [ElseTrue]
+            ) [IfStatement]
+          ) [MoreStatements]
+        ) [Statements]
+        ElseTrue(
+          ElseNonTerm(
+          ) [ElseNonTerm]
+          Statements(
+            MoreStatements(
+              MoreStatements(
+                NoMoreStatements(
+                ) [NoMoreStatements]
+                Print(
+                  WithOutNumConst(
+                    Expr(
+                      NoMinus(
+                      ) [NoMinus]
+                      NoMoreAddOps(
+                        Term(
+                          NoMoreMulOps(
+                            FactorChar(
+                             e
+                            ) [FactorChar]
+                          ) [NoMoreMulOps]
+                        ) [Term]
+                      ) [NoMoreAddOps]
+                    ) [Expr]
+                  ) [WithOutNumConst]
+                ) [Print]
+              ) [MoreStatements]
+              IfStatement(
+                Condition(
+                  FirstCondTerm(
+                    CondTerm(
+                      FirstCondFact(
+                        CondExpr(
+                          Expr(
+                            NoMinus(
+                            ) [NoMinus]
+                            NoMoreAddOps(
+                              Term(
+                                NoMoreMulOps(
+                                  FactorBool(
+                                   1
+                                  ) [FactorBool]
+                                ) [NoMoreMulOps]
+                              ) [Term]
+                            ) [NoMoreAddOps]
+                          ) [Expr]
+                        ) [CondExpr]
+                      ) [FirstCondFact]
+                    ) [CondTerm]
+                  ) [FirstCondTerm]
+                ) [Condition]
+                Statements(
+                  MoreStatements(
+                    NoMoreStatements(
+                    ) [NoMoreStatements]
+                    Print(
+                      WithOutNumConst(
+                        Expr(
+                          NoMinus(
+                          ) [NoMinus]
+                          NoMoreAddOps(
+                            Term(
+                              NoMoreMulOps(
+                                FactorChar(
+                                 t
+                                ) [FactorChar]
+                              ) [NoMoreMulOps]
+                            ) [Term]
+                          ) [NoMoreAddOps]
+                        ) [Expr]
+                      ) [WithOutNumConst]
+                    ) [Print]
+                  ) [MoreStatements]
+                ) [Statements]
+                ElseTrue(
+                  ElseNonTerm(
+                  ) [ElseNonTerm]
+                  Statements(
+                    MoreStatements(
+                      NoMoreStatements(
+                      ) [NoMoreStatements]
+                      Print(
+                        WithOutNumConst(
+                          Expr(
+                            NoMinus(
+                            ) [NoMinus]
+                            NoMoreAddOps(
+                              Term(
+                                NoMoreMulOps(
+                                  FactorChar(
+                                   e
+                                  ) [FactorChar]
+                                ) [NoMoreMulOps]
+                              ) [Term]
+                            ) [NoMoreAddOps]
+                          ) [Expr]
+                        ) [WithOutNumConst]
+                      ) [Print]
+                    ) [MoreStatements]
+                  ) [Statements]
+                ) [ElseTrue]
+              ) [IfStatement]
+            ) [MoreStatements]
+          ) [Statements]
+        ) [ElseTrue]
+      ) [IfStatement]
+    ) [MoreStatements]
+  ) [MethodDecl]
+) [Program]
+INFO  22:09:57,541 - =================================== Semantic ===================================
+INFO  22:09:57,546 -  Print count calls = 6
+INFO  22:09:57,546 -  Deklarisanih promenljivih ima = 0
+INFO  22:09:57,547 - Parsiranje uspesno zavrseno!

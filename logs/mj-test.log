@@ -1,0 +1,1418 @@
+INFO  22:15:38,411 - Compiling source file: C:\Users\Luka\Desktop\PP1 projekat\projekat\workspace\MJCompiler\test\program.mj
+INFO  22:15:38,414 - =================================== Lexer ===================================
+INFO  22:15:38,543 - #2 program
+INFO  22:15:38,543 - #40 test301
+INFO  22:15:38,543 - #7 const
+INFO  22:15:38,548 - #40 int
+INFO  22:15:38,548 - #40 nula
+INFO  22:15:38,553 - #8 =
+INFO  22:15:38,553 - #39 0
+INFO  22:15:38,553 - #5 ;
+INFO  22:15:38,556 - #7 const
+INFO  22:15:38,558 - #40 int
+INFO  22:15:38,558 - #40 jedan
+INFO  22:15:38,558 - #8 =
+INFO  22:15:38,559 - #39 1
+INFO  22:15:38,559 - #5 ;
+INFO  22:15:38,559 - #7 const
+INFO  22:15:38,559 - #40 int
+INFO  22:15:38,559 - #40 pet
+INFO  22:15:38,560 - #8 =
+INFO  22:15:38,560 - #39 5
+INFO  22:15:38,560 - #5 ;
+INFO  22:15:38,560 - #40 int
+INFO  22:15:38,560 - #40 niz
+INFO  22:15:38,562 - #12 [
+INFO  22:15:38,562 - #13 ]
+INFO  22:15:38,562 - #5 ;
+INFO  22:15:38,563 - #40 char
+INFO  22:15:38,565 - #40 nizch
+INFO  22:15:38,565 - #12 [
+INFO  22:15:38,565 - #13 ]
+INFO  22:15:38,566 - #5 ;
+INFO  22:15:38,566 - #3 {
+INFO  22:15:38,566 - #9 void
+INFO  22:15:38,566 - #35 main
+INFO  22:15:38,566 - #10 (
+INFO  22:15:38,569 - #11 )
+INFO  22:15:38,569 - #40 int
+INFO  22:15:38,571 - #40 bodovi
+INFO  22:15:38,571 - #5 ;
+INFO  22:15:38,571 - #3 {
+INFO  22:15:38,571 - #40 bodovi
+INFO  22:15:38,574 - #8 =
+INFO  22:15:38,574 - #39 0
+INFO  22:15:38,580 - #5 ;
+INFO  22:15:38,585 - #40 bodovi
+INFO  22:15:38,585 - #28 ++
+INFO  22:15:38,585 - #5 ;
+INFO  22:15:38,586 - #40 bodovi
+INFO  22:15:38,586 - #8 =
+INFO  22:15:38,586 - #40 bodovi
+INFO  22:15:38,586 - #14 +
+INFO  22:15:38,586 - #40 jedan
+INFO  22:15:38,591 - #5 ;
+INFO  22:15:38,591 - #40 bodovi
+INFO  22:15:38,591 - #8 =
+INFO  22:15:38,591 - #40 bodovi
+INFO  22:15:38,591 - #16 *
+INFO  22:15:38,591 - #40 pet
+INFO  22:15:38,596 - #5 ;
+INFO  22:15:38,597 - #40 bodovi
+INFO  22:15:38,597 - #29 --
+INFO  22:15:38,597 - #5 ;
+INFO  22:15:38,597 - #26 print
+INFO  22:15:38,598 - #10 (
+INFO  22:15:38,598 - #40 bodovi
+INFO  22:15:38,598 - #11 )
+INFO  22:15:38,598 - #5 ;
+INFO  22:15:38,599 - #40 niz
+INFO  22:15:38,599 - #8 =
+INFO  22:15:38,599 - #32 new
+INFO  22:15:38,599 - #40 int
+INFO  22:15:38,601 - #12 [
+INFO  22:15:38,601 - #39 3
+INFO  22:15:38,601 - #13 ]
+INFO  22:15:38,602 - #5 ;
+INFO  22:15:38,602 - #40 niz
+INFO  22:15:38,602 - #12 [
+INFO  22:15:38,605 - #40 nula
+INFO  22:15:38,605 - #13 ]
+INFO  22:15:38,605 - #8 =
+INFO  22:15:38,605 - #40 jedan
+INFO  22:15:38,605 - #5 ;
+INFO  22:15:38,605 - #40 niz
+INFO  22:15:38,605 - #12 [
+INFO  22:15:38,605 - #39 1
+INFO  22:15:38,606 - #13 ]
+INFO  22:15:38,606 - #8 =
+INFO  22:15:38,606 - #39 2
+INFO  22:15:38,606 - #5 ;
+INFO  22:15:38,606 - #40 niz
+INFO  22:15:38,606 - #12 [
+INFO  22:15:38,606 - #40 niz
+INFO  22:15:38,606 - #12 [
+INFO  22:15:38,606 - #40 jedan
+INFO  22:15:38,607 - #13 ]
+INFO  22:15:38,607 - #13 ]
+INFO  22:15:38,607 - #8 =
+INFO  22:15:38,608 - #40 niz
+INFO  22:15:38,608 - #12 [
+INFO  22:15:38,608 - #40 niz
+INFO  22:15:38,608 - #12 [
+INFO  22:15:38,608 - #39 0
+INFO  22:15:38,608 - #13 ]
+INFO  22:15:38,608 - #13 ]
+INFO  22:15:38,608 - #16 *
+INFO  22:15:38,608 - #39 3
+INFO  22:15:38,608 - #5 ;
+INFO  22:15:38,609 - #40 bodovi
+INFO  22:15:38,609 - #8 =
+INFO  22:15:38,609 - #40 niz
+INFO  22:15:38,609 - #12 [
+INFO  22:15:38,609 - #39 2
+INFO  22:15:38,609 - #13 ]
+INFO  22:15:38,609 - #17 /
+INFO  22:15:38,609 - #40 niz
+INFO  22:15:38,612 - #12 [
+INFO  22:15:38,612 - #39 0
+INFO  22:15:38,612 - #13 ]
+INFO  22:15:38,612 - #5 ;
+INFO  22:15:38,612 - #26 print
+INFO  22:15:38,613 - #10 (
+INFO  22:15:38,613 - #40 bodovi
+INFO  22:15:38,613 - #11 )
+INFO  22:15:38,613 - #5 ;
+INFO  22:15:38,614 - #26 print
+INFO  22:15:38,614 - #10 (
+INFO  22:15:38,614 - #40 niz
+INFO  22:15:38,614 - #12 [
+INFO  22:15:38,615 - #39 2
+INFO  22:15:38,615 - #13 ]
+INFO  22:15:38,615 - #11 )
+INFO  22:15:38,615 - #5 ;
+INFO  22:15:38,615 - #40 nizch
+INFO  22:15:38,615 - #8 =
+INFO  22:15:38,615 - #32 new
+INFO  22:15:38,616 - #40 char
+INFO  22:15:38,616 - #12 [
+INFO  22:15:38,616 - #39 3
+INFO  22:15:38,616 - #13 ]
+INFO  22:15:38,616 - #5 ;
+INFO  22:15:38,616 - #40 nizch
+INFO  22:15:38,616 - #12 [
+INFO  22:15:38,616 - #39 0
+INFO  22:15:38,616 - #13 ]
+INFO  22:15:38,616 - #8 =
+INFO  22:15:38,617 - #42 a
+INFO  22:15:38,617 - #5 ;
+INFO  22:15:38,617 - #40 nizch
+INFO  22:15:38,617 - #12 [
+INFO  22:15:38,617 - #40 jedan
+INFO  22:15:38,617 - #13 ]
+INFO  22:15:38,617 - #8 =
+INFO  22:15:38,618 - #42 b
+INFO  22:15:38,618 - #5 ;
+INFO  22:15:38,618 - #40 nizch
+INFO  22:15:38,618 - #12 [
+INFO  22:15:38,618 - #40 pet
+INFO  22:15:38,618 - #15 -
+INFO  22:15:38,618 - #39 3
+INFO  22:15:38,620 - #13 ]
+INFO  22:15:38,620 - #8 =
+INFO  22:15:38,620 - #42 c
+INFO  22:15:38,621 - #5 ;
+INFO  22:15:38,621 - #26 print
+INFO  22:15:38,621 - #10 (
+INFO  22:15:38,621 - #40 nizch
+INFO  22:15:38,621 - #12 [
+INFO  22:15:38,621 - #39 1
+INFO  22:15:38,621 - #13 ]
+INFO  22:15:38,621 - #11 )
+INFO  22:15:38,622 - #5 ;
+INFO  22:15:38,622 - #26 print
+INFO  22:15:38,622 - #10 (
+INFO  22:15:38,622 - #40 nizch
+INFO  22:15:38,622 - #12 [
+INFO  22:15:38,622 - #40 jedan
+INFO  22:15:38,622 - #16 *
+INFO  22:15:38,622 - #39 2
+INFO  22:15:38,622 - #13 ]
+INFO  22:15:38,622 - #11 )
+INFO  22:15:38,622 - #5 ;
+INFO  22:15:38,622 - #40 bodovi
+INFO  22:15:38,622 - #8 =
+INFO  22:15:38,623 - #40 bodovi
+INFO  22:15:38,623 - #14 +
+INFO  22:15:38,623 - #10 (
+INFO  22:15:38,623 - #40 pet
+INFO  22:15:38,623 - #16 *
+INFO  22:15:38,623 - #40 jedan
+INFO  22:15:38,623 - #15 -
+INFO  22:15:38,623 - #39 1
+INFO  22:15:38,624 - #11 )
+INFO  22:15:38,624 - #16 *
+INFO  22:15:38,624 - #40 bodovi
+INFO  22:15:38,624 - #15 -
+INFO  22:15:38,629 - #10 (
+INFO  22:15:38,629 - #39 3
+INFO  22:15:38,629 - #18 %
+INFO  22:15:38,629 - #39 2
+INFO  22:15:38,632 - #14 +
+INFO  22:15:38,632 - #39 3
+INFO  22:15:38,632 - #16 *
+INFO  22:15:38,632 - #39 2
+INFO  22:15:38,632 - #15 -
+INFO  22:15:38,632 - #39 3
+INFO  22:15:38,632 - #11 )
+INFO  22:15:38,632 - #5 ;
+INFO  22:15:38,632 - #26 print
+INFO  22:15:38,632 - #10 (
+INFO  22:15:38,632 - #40 bodovi
+INFO  22:15:38,632 - #11 )
+INFO  22:15:38,632 - #5 ;
+INFO  22:15:38,632 - #27 read
+INFO  22:15:38,632 - #10 (
+INFO  22:15:38,633 - #40 bodovi
+INFO  22:15:38,633 - #11 )
+INFO  22:15:38,633 - #5 ;
+INFO  22:15:38,633 - #33 if
+INFO  22:15:38,633 - #10 (
+INFO  22:15:38,633 - #40 bodovi
+INFO  22:15:38,633 - #18 %
+INFO  22:15:38,633 - #39 2
+INFO  22:15:38,633 - #19 ==
+INFO  22:15:38,633 - #39 0
+INFO  22:15:38,637 - #11 )
+INFO  22:15:38,642 - #40 bodovi
+INFO  22:15:38,642 - #8 =
+INFO  22:15:38,642 - #40 bodovi
+INFO  22:15:38,642 - #14 +
+INFO  22:15:38,642 - #39 10
+INFO  22:15:38,642 - #5 ;
+INFO  22:15:38,642 - #33 if
+INFO  22:15:38,645 - #10 (
+INFO  22:15:38,645 - #41 0
+INFO  22:15:38,645 - #11 )
+INFO  22:15:38,645 - #26 print
+INFO  22:15:38,645 - #10 (
+INFO  22:15:38,645 - #40 bodovi
+INFO  22:15:38,645 - #14 +
+INFO  22:15:38,645 - #39 20
+INFO  22:15:38,645 - #11 )
+INFO  22:15:38,645 - #5 ;
+INFO  22:15:38,645 - #34 else
+INFO  22:15:38,646 - #26 print
+INFO  22:15:38,648 - #10 (
+INFO  22:15:38,649 - #40 bodovi
+INFO  22:15:38,649 - #11 )
+INFO  22:15:38,649 - #5 ;
+INFO  22:15:38,649 - #4 }
+INFO  22:15:38,649 - #4 }
+INFO  22:15:38,654 - =================================== Parser ===================================
+INFO  22:15:38,669 - Program(
+  ProgramName(
+   test301
+  ) [ProgramName]
+  DeclVar(
+    DeclVar(
+      DeclConst(
+        DeclConst(
+          DeclConst(
+            DeclNo(
+            ) [DeclNo]
+            ConstDeclList(
+              Type(
+               int
+              ) [Type]
+              NoConstDecl(
+              ) [NoConstDecl]
+              ConstDecl(
+               nula
+                ConstNum(
+                 0
+                ) [ConstNum]
+              ) [ConstDecl]
+            ) [ConstDeclList]
+          ) [DeclConst]
+          ConstDeclList(
+            Type(
+             int
+            ) [Type]
+            NoConstDecl(
+            ) [NoConstDecl]
+            ConstDecl(
+             jedan
+              ConstNum(
+               1
+              ) [ConstNum]
+            ) [ConstDecl]
+          ) [ConstDeclList]
+        ) [DeclConst]
+        ConstDeclList(
+          Type(
+           int
+          ) [Type]
+          NoConstDecl(
+          ) [NoConstDecl]
+          ConstDecl(
+           pet
+            ConstNum(
+             5
+            ) [ConstNum]
+          ) [ConstDecl]
+        ) [ConstDeclList]
+      ) [DeclConst]
+      VarDeclList(
+        Type(
+         int
+        ) [Type]
+        NoVarDecl(
+        ) [NoVarDecl]
+        ArrayVarDecl(
+         niz
+        ) [ArrayVarDecl]
+      ) [VarDeclList]
+    ) [DeclVar]
+    VarDeclList(
+      Type(
+       char
+      ) [Type]
+      NoVarDecl(
+      ) [NoVarDecl]
+      ArrayVarDecl(
+       nizch
+      ) [ArrayVarDecl]
+    ) [VarDeclList]
+  ) [DeclVar]
+  MethodDecl(
+    MethodMain(
+    ) [MethodMain]
+    YesLocalVars(
+      NoLocalVars(
+      ) [NoLocalVars]
+      VarDeclList(
+        Type(
+         int
+        ) [Type]
+        NoVarDecl(
+        ) [NoVarDecl]
+        SingleVarDecl(
+         bodovi
+        ) [SingleVarDecl]
+      ) [VarDeclList]
+    ) [YesLocalVars]
+    MoreStatements(
+      MoreStatements(
+        MoreStatements(
+          MoreStatements(
+            MoreStatements(
+              MoreStatements(
+                MoreStatements(
+                  MoreStatements(
+                    MoreStatements(
+                      MoreStatements(
+                        MoreStatements(
+                          MoreStatements(
+                            MoreStatements(
+                              MoreStatements(
+                                MoreStatements(
+                                  MoreStatements(
+                                    MoreStatements(
+                                      MoreStatements(
+                                        MoreStatements(
+                                          MoreStatements(
+                                            MoreStatements(
+                                              MoreStatements(
+                                                MoreStatements(
+                                                  MoreStatements(
+                                                    NoMoreStatements(
+                                                    ) [NoMoreStatements]
+                                                    DesignatorStatements(
+                                                      DsgExpr(
+                                                        DesignatorSingle(
+                                                         bodovi
+                                                        ) [DesignatorSingle]
+                                                        Assignop(
+                                                        ) [Assignop]
+                                                        Expr(
+                                                          NoMinus(
+                                                          ) [NoMinus]
+                                                          NoMoreAddOps(
+                                                            Term(
+                                                              NoMoreMulOps(
+                                                                FactorNum(
+                                                                 0
+                                                                ) [FactorNum]
+                                                              ) [NoMoreMulOps]
+                                                            ) [Term]
+                                                          ) [NoMoreAddOps]
+                                                        ) [Expr]
+                                                      ) [DsgExpr]
+                                                    ) [DesignatorStatements]
+                                                  ) [MoreStatements]
+                                                  DesignatorStatements(
+                                                    DsgInc(
+                                                      DesignatorSingle(
+                                                       bodovi
+                                                      ) [DesignatorSingle]
+                                                    ) [DsgInc]
+                                                  ) [DesignatorStatements]
+                                                ) [MoreStatements]
+                                                DesignatorStatements(
+                                                  DsgExpr(
+                                                    DesignatorSingle(
+                                                     bodovi
+                                                    ) [DesignatorSingle]
+                                                    Assignop(
+                                                    ) [Assignop]
+                                                    Expr(
+                                                      NoMinus(
+                                                      ) [NoMinus]
+                                                      MoreAddOps(
+                                                        NoMoreAddOps(
+                                                          Term(
+                                                            NoMoreMulOps(
+                                                              FactorDsg(
+                                                                DesignatorSingle(
+                                                                 bodovi
+                                                                ) [DesignatorSingle]
+                                                              ) [FactorDsg]
+                                                            ) [NoMoreMulOps]
+                                                          ) [Term]
+                                                        ) [NoMoreAddOps]
+                                                        Plus(
+                                                        ) [Plus]
+                                                        Term(
+                                                          NoMoreMulOps(
+                                                            FactorDsg(
+                                                              DesignatorSingle(
+                                                               jedan
+                                                              ) [DesignatorSingle]
+                                                            ) [FactorDsg]
+                                                          ) [NoMoreMulOps]
+                                                        ) [Term]
+                                                      ) [MoreAddOps]
+                                                    ) [Expr]
+                                                  ) [DsgExpr]
+                                                ) [DesignatorStatements]
+                                              ) [MoreStatements]
+                                              DesignatorStatements(
+                                                DsgExpr(
+                                                  DesignatorSingle(
+                                                   bodovi
+                                                  ) [DesignatorSingle]
+                                                  Assignop(
+                                                  ) [Assignop]
+                                                  Expr(
+                                                    NoMinus(
+                                                    ) [NoMinus]
+                                                    NoMoreAddOps(
+                                                      Term(
+                                                        MoreMulOps(
+                                                          NoMoreMulOps(
+                                                            FactorDsg(
+                                                              DesignatorSingle(
+                                                               bodovi
+                                                              ) [DesignatorSingle]
+                                                            ) [FactorDsg]
+                                                          ) [NoMoreMulOps]
+                                                          Mul(
+                                                          ) [Mul]
+                                                          FactorDsg(
+                                                            DesignatorSingle(
+                                                             pet
+                                                            ) [DesignatorSingle]
+                                                          ) [FactorDsg]
+                                                        ) [MoreMulOps]
+                                                      ) [Term]
+                                                    ) [NoMoreAddOps]
+                                                  ) [Expr]
+                                                ) [DsgExpr]
+                                              ) [DesignatorStatements]
+                                            ) [MoreStatements]
+                                            DesignatorStatements(
+                                              DsgDec(
+                                                DesignatorSingle(
+                                                 bodovi
+                                                ) [DesignatorSingle]
+                                              ) [DsgDec]
+                                            ) [DesignatorStatements]
+                                          ) [MoreStatements]
+                                          Print(
+                                            WithOutNumConst(
+                                              Expr(
+                                                NoMinus(
+                                                ) [NoMinus]
+                                                NoMoreAddOps(
+                                                  Term(
+                                                    NoMoreMulOps(
+                                                      FactorDsg(
+                                                        DesignatorSingle(
+                                                         bodovi
+                                                        ) [DesignatorSingle]
+                                                      ) [FactorDsg]
+                                                    ) [NoMoreMulOps]
+                                                  ) [Term]
+                                                ) [NoMoreAddOps]
+                                              ) [Expr]
+                                            ) [WithOutNumConst]
+                                          ) [Print]
+                                        ) [MoreStatements]
+                                        DesignatorStatements(
+                                          DsgExpr(
+                                            DesignatorSingle(
+                                             niz
+                                            ) [DesignatorSingle]
+                                            Assignop(
+                                            ) [Assignop]
+                                            Expr(
+                                              NoMinus(
+                                              ) [NoMinus]
+                                              NoMoreAddOps(
+                                                Term(
+                                                  NoMoreMulOps(
+                                                    FactorNewExpr(
+                                                      Type(
+                                                       int
+                                                      ) [Type]
+                                                      Expr(
+                                                        NoMinus(
+                                                        ) [NoMinus]
+                                                        NoMoreAddOps(
+                                                          Term(
+                                                            NoMoreMulOps(
+                                                              FactorNum(
+                                                               3
+                                                              ) [FactorNum]
+                                                            ) [NoMoreMulOps]
+                                                          ) [Term]
+                                                        ) [NoMoreAddOps]
+                                                      ) [Expr]
+                                                    ) [FactorNewExpr]
+                                                  ) [NoMoreMulOps]
+                                                ) [Term]
+                                              ) [NoMoreAddOps]
+                                            ) [Expr]
+                                          ) [DsgExpr]
+                                        ) [DesignatorStatements]
+                                      ) [MoreStatements]
+                                      DesignatorStatements(
+                                        DsgExpr(
+                                          DesignatorArray(
+                                            DesignatorNameArray(
+                                             niz
+                                            ) [DesignatorNameArray]
+                                            Expr(
+                                              NoMinus(
+                                              ) [NoMinus]
+                                              NoMoreAddOps(
+                                                Term(
+                                                  NoMoreMulOps(
+                                                    FactorDsg(
+                                                      DesignatorSingle(
+                                                       nula
+                                                      ) [DesignatorSingle]
+                                                    ) [FactorDsg]
+                                                  ) [NoMoreMulOps]
+                                                ) [Term]
+                                              ) [NoMoreAddOps]
+                                            ) [Expr]
+                                          ) [DesignatorArray]
+                                          Assignop(
+                                          ) [Assignop]
+                                          Expr(
+                                            NoMinus(
+                                            ) [NoMinus]
+                                            NoMoreAddOps(
+                                              Term(
+                                                NoMoreMulOps(
+                                                  FactorDsg(
+                                                    DesignatorSingle(
+                                                     jedan
+                                                    ) [DesignatorSingle]
+                                                  ) [FactorDsg]
+                                                ) [NoMoreMulOps]
+                                              ) [Term]
+                                            ) [NoMoreAddOps]
+                                          ) [Expr]
+                                        ) [DsgExpr]
+                                      ) [DesignatorStatements]
+                                    ) [MoreStatements]
+                                    DesignatorStatements(
+                                      DsgExpr(
+                                        DesignatorArray(
+                                          DesignatorNameArray(
+                                           niz
+                                          ) [DesignatorNameArray]
+                                          Expr(
+                                            NoMinus(
+                                            ) [NoMinus]
+                                            NoMoreAddOps(
+                                              Term(
+                                                NoMoreMulOps(
+                                                  FactorNum(
+                                                   1
+                                                  ) [FactorNum]
+                                                ) [NoMoreMulOps]
+                                              ) [Term]
+                                            ) [NoMoreAddOps]
+                                          ) [Expr]
+                                        ) [DesignatorArray]
+                                        Assignop(
+                                        ) [Assignop]
+                                        Expr(
+                                          NoMinus(
+                                          ) [NoMinus]
+                                          NoMoreAddOps(
+                                            Term(
+                                              NoMoreMulOps(
+                                                FactorNum(
+                                                 2
+                                                ) [FactorNum]
+                                              ) [NoMoreMulOps]
+                                            ) [Term]
+                                          ) [NoMoreAddOps]
+                                        ) [Expr]
+                                      ) [DsgExpr]
+                                    ) [DesignatorStatements]
+                                  ) [MoreStatements]
+                                  DesignatorStatements(
+                                    DsgExpr(
+                                      DesignatorArray(
+                                        DesignatorNameArray(
+                                         niz
+                                        ) [DesignatorNameArray]
+                                        Expr(
+                                          NoMinus(
+                                          ) [NoMinus]
+                                          NoMoreAddOps(
+                                            Term(
+                                              NoMoreMulOps(
+                                                FactorDsg(
+                                                  DesignatorArray(
+                                                    DesignatorNameArray(
+                                                     niz
+                                                    ) [DesignatorNameArray]
+                                                    Expr(
+                                                      NoMinus(
+                                                      ) [NoMinus]
+                                                      NoMoreAddOps(
+                                                        Term(
+                                                          NoMoreMulOps(
+                                                            FactorDsg(
+                                                              DesignatorSingle(
+                                                               jedan
+                                                              ) [DesignatorSingle]
+                                                            ) [FactorDsg]
+                                                          ) [NoMoreMulOps]
+                                                        ) [Term]
+                                                      ) [NoMoreAddOps]
+                                                    ) [Expr]
+                                                  ) [DesignatorArray]
+                                                ) [FactorDsg]
+                                              ) [NoMoreMulOps]
+                                            ) [Term]
+                                          ) [NoMoreAddOps]
+                                        ) [Expr]
+                                      ) [DesignatorArray]
+                                      Assignop(
+                                      ) [Assignop]
+                                      Expr(
+                                        NoMinus(
+                                        ) [NoMinus]
+                                        NoMoreAddOps(
+                                          Term(
+                                            MoreMulOps(
+                                              NoMoreMulOps(
+                                                FactorDsg(
+                                                  DesignatorArray(
+                                                    DesignatorNameArray(
+                                                     niz
+                                                    ) [DesignatorNameArray]
+                                                    Expr(
+                                                      NoMinus(
+                                                      ) [NoMinus]
+                                                      NoMoreAddOps(
+                                                        Term(
+                                                          NoMoreMulOps(
+                                                            FactorDsg(
+                                                              DesignatorArray(
+                                                                DesignatorNameArray(
+                                                                 niz
+                                                                ) [DesignatorNameArray]
+                                                                Expr(
+                                                                  NoMinus(
+                                                                  ) [NoMinus]
+                                                                  NoMoreAddOps(
+                                                                    Term(
+                                                                      NoMoreMulOps(
+                                                                        FactorNum(
+                                                                         0
+                                                                        ) [FactorNum]
+                                                                      ) [NoMoreMulOps]
+                                                                    ) [Term]
+                                                                  ) [NoMoreAddOps]
+                                                                ) [Expr]
+                                                              ) [DesignatorArray]
+                                                            ) [FactorDsg]
+                                                          ) [NoMoreMulOps]
+                                                        ) [Term]
+                                                      ) [NoMoreAddOps]
+                                                    ) [Expr]
+                                                  ) [DesignatorArray]
+                                                ) [FactorDsg]
+                                              ) [NoMoreMulOps]
+                                              Mul(
+                                              ) [Mul]
+                                              FactorNum(
+                                               3
+                                              ) [FactorNum]
+                                            ) [MoreMulOps]
+                                          ) [Term]
+                                        ) [NoMoreAddOps]
+                                      ) [Expr]
+                                    ) [DsgExpr]
+                                  ) [DesignatorStatements]
+                                ) [MoreStatements]
+                                DesignatorStatements(
+                                  DsgExpr(
+                                    DesignatorSingle(
+                                     bodovi
+                                    ) [DesignatorSingle]
+                                    Assignop(
+                                    ) [Assignop]
+                                    Expr(
+                                      NoMinus(
+                                      ) [NoMinus]
+                                      NoMoreAddOps(
+                                        Term(
+                                          MoreMulOps(
+                                            NoMoreMulOps(
+                                              FactorDsg(
+                                                DesignatorArray(
+                                                  DesignatorNameArray(
+                                                   niz
+                                                  ) [DesignatorNameArray]
+                                                  Expr(
+                                                    NoMinus(
+                                                    ) [NoMinus]
+                                                    NoMoreAddOps(
+                                                      Term(
+                                                        NoMoreMulOps(
+                                                          FactorNum(
+                                                           2
+                                                          ) [FactorNum]
+                                                        ) [NoMoreMulOps]
+                                                      ) [Term]
+                                                    ) [NoMoreAddOps]
+                                                  ) [Expr]
+                                                ) [DesignatorArray]
+                                              ) [FactorDsg]
+                                            ) [NoMoreMulOps]
+                                            Div(
+                                            ) [Div]
+                                            FactorDsg(
+                                              DesignatorArray(
+                                                DesignatorNameArray(
+                                                 niz
+                                                ) [DesignatorNameArray]
+                                                Expr(
+                                                  NoMinus(
+                                                  ) [NoMinus]
+                                                  NoMoreAddOps(
+                                                    Term(
+                                                      NoMoreMulOps(
+                                                        FactorNum(
+                                                         0
+                                                        ) [FactorNum]
+                                                      ) [NoMoreMulOps]
+                                                    ) [Term]
+                                                  ) [NoMoreAddOps]
+                                                ) [Expr]
+                                              ) [DesignatorArray]
+                                            ) [FactorDsg]
+                                          ) [MoreMulOps]
+                                        ) [Term]
+                                      ) [NoMoreAddOps]
+                                    ) [Expr]
+                                  ) [DsgExpr]
+                                ) [DesignatorStatements]
+                              ) [MoreStatements]
+                              Print(
+                                WithOutNumConst(
+                                  Expr(
+                                    NoMinus(
+                                    ) [NoMinus]
+                                    NoMoreAddOps(
+                                      Term(
+                                        NoMoreMulOps(
+                                          FactorDsg(
+                                            DesignatorSingle(
+                                             bodovi
+                                            ) [DesignatorSingle]
+                                          ) [FactorDsg]
+                                        ) [NoMoreMulOps]
+                                      ) [Term]
+                                    ) [NoMoreAddOps]
+                                  ) [Expr]
+                                ) [WithOutNumConst]
+                              ) [Print]
+                            ) [MoreStatements]
+                            Print(
+                              WithOutNumConst(
+                                Expr(
+                                  NoMinus(
+                                  ) [NoMinus]
+                                  NoMoreAddOps(
+                                    Term(
+                                      NoMoreMulOps(
+                                        FactorDsg(
+                                          DesignatorArray(
+                                            DesignatorNameArray(
+                                             niz
+                                            ) [DesignatorNameArray]
+                                            Expr(
+                                              NoMinus(
+                                              ) [NoMinus]
+                                              NoMoreAddOps(
+                                                Term(
+                                                  NoMoreMulOps(
+                                                    FactorNum(
+                                                     2
+                                                    ) [FactorNum]
+                                                  ) [NoMoreMulOps]
+                                                ) [Term]
+                                              ) [NoMoreAddOps]
+                                            ) [Expr]
+                                          ) [DesignatorArray]
+                                        ) [FactorDsg]
+                                      ) [NoMoreMulOps]
+                                    ) [Term]
+                                  ) [NoMoreAddOps]
+                                ) [Expr]
+                              ) [WithOutNumConst]
+                            ) [Print]
+                          ) [MoreStatements]
+                          DesignatorStatements(
+                            DsgExpr(
+                              DesignatorSingle(
+                               nizch
+                              ) [DesignatorSingle]
+                              Assignop(
+                              ) [Assignop]
+                              Expr(
+                                NoMinus(
+                                ) [NoMinus]
+                                NoMoreAddOps(
+                                  Term(
+                                    NoMoreMulOps(
+                                      FactorNewExpr(
+                                        Type(
+                                         char
+                                        ) [Type]
+                                        Expr(
+                                          NoMinus(
+                                          ) [NoMinus]
+                                          NoMoreAddOps(
+                                            Term(
+                                              NoMoreMulOps(
+                                                FactorNum(
+                                                 3
+                                                ) [FactorNum]
+                                              ) [NoMoreMulOps]
+                                            ) [Term]
+                                          ) [NoMoreAddOps]
+                                        ) [Expr]
+                                      ) [FactorNewExpr]
+                                    ) [NoMoreMulOps]
+                                  ) [Term]
+                                ) [NoMoreAddOps]
+                              ) [Expr]
+                            ) [DsgExpr]
+                          ) [DesignatorStatements]
+                        ) [MoreStatements]
+                        DesignatorStatements(
+                          DsgExpr(
+                            DesignatorArray(
+                              DesignatorNameArray(
+                               nizch
+                              ) [DesignatorNameArray]
+                              Expr(
+                                NoMinus(
+                                ) [NoMinus]
+                                NoMoreAddOps(
+                                  Term(
+                                    NoMoreMulOps(
+                                      FactorNum(
+                                       0
+                                      ) [FactorNum]
+                                    ) [NoMoreMulOps]
+                                  ) [Term]
+                                ) [NoMoreAddOps]
+                              ) [Expr]
+                            ) [DesignatorArray]
+                            Assignop(
+                            ) [Assignop]
+                            Expr(
+                              NoMinus(
+                              ) [NoMinus]
+                              NoMoreAddOps(
+                                Term(
+                                  NoMoreMulOps(
+                                    FactorChar(
+                                     a
+                                    ) [FactorChar]
+                                  ) [NoMoreMulOps]
+                                ) [Term]
+                              ) [NoMoreAddOps]
+                            ) [Expr]
+                          ) [DsgExpr]
+                        ) [DesignatorStatements]
+                      ) [MoreStatements]
+                      DesignatorStatements(
+                        DsgExpr(
+                          DesignatorArray(
+                            DesignatorNameArray(
+                             nizch
+                            ) [DesignatorNameArray]
+                            Expr(
+                              NoMinus(
+                              ) [NoMinus]
+                              NoMoreAddOps(
+                                Term(
+                                  NoMoreMulOps(
+                                    FactorDsg(
+                                      DesignatorSingle(
+                                       jedan
+                                      ) [DesignatorSingle]
+                                    ) [FactorDsg]
+                                  ) [NoMoreMulOps]
+                                ) [Term]
+                              ) [NoMoreAddOps]
+                            ) [Expr]
+                          ) [DesignatorArray]
+                          Assignop(
+                          ) [Assignop]
+                          Expr(
+                            NoMinus(
+                            ) [NoMinus]
+                            NoMoreAddOps(
+                              Term(
+                                NoMoreMulOps(
+                                  FactorChar(
+                                   b
+                                  ) [FactorChar]
+                                ) [NoMoreMulOps]
+                              ) [Term]
+                            ) [NoMoreAddOps]
+                          ) [Expr]
+                        ) [DsgExpr]
+                      ) [DesignatorStatements]
+                    ) [MoreStatements]
+                    DesignatorStatements(
+                      DsgExpr(
+                        DesignatorArray(
+                          DesignatorNameArray(
+                           nizch
+                          ) [DesignatorNameArray]
+                          Expr(
+                            NoMinus(
+                            ) [NoMinus]
+                            MoreAddOps(
+                              NoMoreAddOps(
+                                Term(
+                                  NoMoreMulOps(
+                                    FactorDsg(
+                                      DesignatorSingle(
+                                       pet
+                                      ) [DesignatorSingle]
+                                    ) [FactorDsg]
+                                  ) [NoMoreMulOps]
+                                ) [Term]
+                              ) [NoMoreAddOps]
+                              Minus(
+                              ) [Minus]
+                              Term(
+                                NoMoreMulOps(
+                                  FactorNum(
+                                   3
+                                  ) [FactorNum]
+                                ) [NoMoreMulOps]
+                              ) [Term]
+                            ) [MoreAddOps]
+                          ) [Expr]
+                        ) [DesignatorArray]
+                        Assignop(
+                        ) [Assignop]
+                        Expr(
+                          NoMinus(
+                          ) [NoMinus]
+                          NoMoreAddOps(
+                            Term(
+                              NoMoreMulOps(
+                                FactorChar(
+                                 c
+                                ) [FactorChar]
+                              ) [NoMoreMulOps]
+                            ) [Term]
+                          ) [NoMoreAddOps]
+                        ) [Expr]
+                      ) [DsgExpr]
+                    ) [DesignatorStatements]
+                  ) [MoreStatements]
+                  Print(
+                    WithOutNumConst(
+                      Expr(
+                        NoMinus(
+                        ) [NoMinus]
+                        NoMoreAddOps(
+                          Term(
+                            NoMoreMulOps(
+                              FactorDsg(
+                                DesignatorArray(
+                                  DesignatorNameArray(
+                                   nizch
+                                  ) [DesignatorNameArray]
+                                  Expr(
+                                    NoMinus(
+                                    ) [NoMinus]
+                                    NoMoreAddOps(
+                                      Term(
+                                        NoMoreMulOps(
+                                          FactorNum(
+                                           1
+                                          ) [FactorNum]
+                                        ) [NoMoreMulOps]
+                                      ) [Term]
+                                    ) [NoMoreAddOps]
+                                  ) [Expr]
+                                ) [DesignatorArray]
+                              ) [FactorDsg]
+                            ) [NoMoreMulOps]
+                          ) [Term]
+                        ) [NoMoreAddOps]
+                      ) [Expr]
+                    ) [WithOutNumConst]
+                  ) [Print]
+                ) [MoreStatements]
+                Print(
+                  WithOutNumConst(
+                    Expr(
+                      NoMinus(
+                      ) [NoMinus]
+                      NoMoreAddOps(
+                        Term(
+                          NoMoreMulOps(
+                            FactorDsg(
+                              DesignatorArray(
+                                DesignatorNameArray(
+                                 nizch
+                                ) [DesignatorNameArray]
+                                Expr(
+                                  NoMinus(
+                                  ) [NoMinus]
+                                  NoMoreAddOps(
+                                    Term(
+                                      MoreMulOps(
+                                        NoMoreMulOps(
+                                          FactorDsg(
+                                            DesignatorSingle(
+                                             jedan
+                                            ) [DesignatorSingle]
+                                          ) [FactorDsg]
+                                        ) [NoMoreMulOps]
+                                        Mul(
+                                        ) [Mul]
+                                        FactorNum(
+                                         2
+                                        ) [FactorNum]
+                                      ) [MoreMulOps]
+                                    ) [Term]
+                                  ) [NoMoreAddOps]
+                                ) [Expr]
+                              ) [DesignatorArray]
+                            ) [FactorDsg]
+                          ) [NoMoreMulOps]
+                        ) [Term]
+                      ) [NoMoreAddOps]
+                    ) [Expr]
+                  ) [WithOutNumConst]
+                ) [Print]
+              ) [MoreStatements]
+              DesignatorStatements(
+                DsgExpr(
+                  DesignatorSingle(
+                   bodovi
+                  ) [DesignatorSingle]
+                  Assignop(
+                  ) [Assignop]
+                  Expr(
+                    NoMinus(
+                    ) [NoMinus]
+                    MoreAddOps(
+                      MoreAddOps(
+                        NoMoreAddOps(
+                          Term(
+                            NoMoreMulOps(
+                              FactorDsg(
+                                DesignatorSingle(
+                                 bodovi
+                                ) [DesignatorSingle]
+                              ) [FactorDsg]
+                            ) [NoMoreMulOps]
+                          ) [Term]
+                        ) [NoMoreAddOps]
+                        Plus(
+                        ) [Plus]
+                        Term(
+                          MoreMulOps(
+                            NoMoreMulOps(
+                              FactorExpr(
+                                Expr(
+                                  NoMinus(
+                                  ) [NoMinus]
+                                  MoreAddOps(
+                                    NoMoreAddOps(
+                                      Term(
+                                        MoreMulOps(
+                                          NoMoreMulOps(
+                                            FactorDsg(
+                                              DesignatorSingle(
+                                               pet
+                                              ) [DesignatorSingle]
+                                            ) [FactorDsg]
+                                          ) [NoMoreMulOps]
+                                          Mul(
+                                          ) [Mul]
+                                          FactorDsg(
+                                            DesignatorSingle(
+                                             jedan
+                                            ) [DesignatorSingle]
+                                          ) [FactorDsg]
+                                        ) [MoreMulOps]
+                                      ) [Term]
+                                    ) [NoMoreAddOps]
+                                    Minus(
+                                    ) [Minus]
+                                    Term(
+                                      NoMoreMulOps(
+                                        FactorNum(
+                                         1
+                                        ) [FactorNum]
+                                      ) [NoMoreMulOps]
+                                    ) [Term]
+                                  ) [MoreAddOps]
+                                ) [Expr]
+                              ) [FactorExpr]
+                            ) [NoMoreMulOps]
+                            Mul(
+                            ) [Mul]
+                            FactorDsg(
+                              DesignatorSingle(
+                               bodovi
+                              ) [DesignatorSingle]
+                            ) [FactorDsg]
+                          ) [MoreMulOps]
+                        ) [Term]
+                      ) [MoreAddOps]
+                      Minus(
+                      ) [Minus]
+                      Term(
+                        NoMoreMulOps(
+                          FactorExpr(
+                            Expr(
+                              NoMinus(
+                              ) [NoMinus]
+                              MoreAddOps(
+                                MoreAddOps(
+                                  NoMoreAddOps(
+                                    Term(
+                                      MoreMulOps(
+                                        NoMoreMulOps(
+                                          FactorNum(
+                                           3
+                                          ) [FactorNum]
+                                        ) [NoMoreMulOps]
+                                        Mod(
+                                        ) [Mod]
+                                        FactorNum(
+                                         2
+                                        ) [FactorNum]
+                                      ) [MoreMulOps]
+                                    ) [Term]
+                                  ) [NoMoreAddOps]
+                                  Plus(
+                                  ) [Plus]
+                                  Term(
+                                    MoreMulOps(
+                                      NoMoreMulOps(
+                                        FactorNum(
+                                         3
+                                        ) [FactorNum]
+                                      ) [NoMoreMulOps]
+                                      Mul(
+                                      ) [Mul]
+                                      FactorNum(
+                                       2
+                                      ) [FactorNum]
+                                    ) [MoreMulOps]
+                                  ) [Term]
+                                ) [MoreAddOps]
+                                Minus(
+                                ) [Minus]
+                                Term(
+                                  NoMoreMulOps(
+                                    FactorNum(
+                                     3
+                                    ) [FactorNum]
+                                  ) [NoMoreMulOps]
+                                ) [Term]
+                              ) [MoreAddOps]
+                            ) [Expr]
+                          ) [FactorExpr]
+                        ) [NoMoreMulOps]
+                      ) [Term]
+                    ) [MoreAddOps]
+                  ) [Expr]
+                ) [DsgExpr]
+              ) [DesignatorStatements]
+            ) [MoreStatements]
+            Print(
+              WithOutNumConst(
+                Expr(
+                  NoMinus(
+                  ) [NoMinus]
+                  NoMoreAddOps(
+                    Term(
+                      NoMoreMulOps(
+                        FactorDsg(
+                          DesignatorSingle(
+                           bodovi
+                          ) [DesignatorSingle]
+                        ) [FactorDsg]
+                      ) [NoMoreMulOps]
+                    ) [Term]
+                  ) [NoMoreAddOps]
+                ) [Expr]
+              ) [WithOutNumConst]
+            ) [Print]
+          ) [MoreStatements]
+          Read(
+            DesignatorSingle(
+             bodovi
+            ) [DesignatorSingle]
+          ) [Read]
+        ) [MoreStatements]
+        IfStatement(
+          Condition(
+            FirstCondTerm(
+              CondTerm(
+                FirstCondFact(
+                  CondExprRelop(
+                    Expr(
+                      NoMinus(
+                      ) [NoMinus]
+                      NoMoreAddOps(
+                        Term(
+                          MoreMulOps(
+                            NoMoreMulOps(
+                              FactorDsg(
+                                DesignatorSingle(
+                                 bodovi
+                                ) [DesignatorSingle]
+                              ) [FactorDsg]
+                            ) [NoMoreMulOps]
+                            Mod(
+                            ) [Mod]
+                            FactorNum(
+                             2
+                            ) [FactorNum]
+                          ) [MoreMulOps]
+                        ) [Term]
+                      ) [NoMoreAddOps]
+                    ) [Expr]
+                    Equals(
+                    ) [Equals]
+                    Expr(
+                      NoMinus(
+                      ) [NoMinus]
+                      NoMoreAddOps(
+                        Term(
+                          NoMoreMulOps(
+                            FactorNum(
+                             0
+                            ) [FactorNum]
+                          ) [NoMoreMulOps]
+                        ) [Term]
+                      ) [NoMoreAddOps]
+                    ) [Expr]
+                  ) [CondExprRelop]
+                ) [FirstCondFact]
+              ) [CondTerm]
+            ) [FirstCondTerm]
+          ) [Condition]
+          DesignatorStatements(
+            DsgExpr(
+              DesignatorSingle(
+               bodovi
+              ) [DesignatorSingle]
+              Assignop(
+              ) [Assignop]
+              Expr(
+                NoMinus(
+                ) [NoMinus]
+                MoreAddOps(
+                  NoMoreAddOps(
+                    Term(
+                      NoMoreMulOps(
+                        FactorDsg(
+                          DesignatorSingle(
+                           bodovi
+                          ) [DesignatorSingle]
+                        ) [FactorDsg]
+                      ) [NoMoreMulOps]
+                    ) [Term]
+                  ) [NoMoreAddOps]
+                  Plus(
+                  ) [Plus]
+                  Term(
+                    NoMoreMulOps(
+                      FactorNum(
+                       10
+                      ) [FactorNum]
+                    ) [NoMoreMulOps]
+                  ) [Term]
+                ) [MoreAddOps]
+              ) [Expr]
+            ) [DsgExpr]
+          ) [DesignatorStatements]
+          ElseFalse(
+          ) [ElseFalse]
+        ) [IfStatement]
+      ) [MoreStatements]
+      IfStatement(
+        Condition(
+          FirstCondTerm(
+            CondTerm(
+              FirstCondFact(
+                CondExpr(
+                  Expr(
+                    NoMinus(
+                    ) [NoMinus]
+                    NoMoreAddOps(
+                      Term(
+                        NoMoreMulOps(
+                          FactorBool(
+                           0
+                          ) [FactorBool]
+                        ) [NoMoreMulOps]
+                      ) [Term]
+                    ) [NoMoreAddOps]
+                  ) [Expr]
+                ) [CondExpr]
+              ) [FirstCondFact]
+            ) [CondTerm]
+          ) [FirstCondTerm]
+        ) [Condition]
+        Print(
+          WithOutNumConst(
+            Expr(
+              NoMinus(
+              ) [NoMinus]
+              MoreAddOps(
+                NoMoreAddOps(
+                  Term(
+                    NoMoreMulOps(
+                      FactorDsg(
+                        DesignatorSingle(
+                         bodovi
+                        ) [DesignatorSingle]
+                      ) [FactorDsg]
+                    ) [NoMoreMulOps]
+                  ) [Term]
+                ) [NoMoreAddOps]
+                Plus(
+                ) [Plus]
+                Term(
+                  NoMoreMulOps(
+                    FactorNum(
+                     20
+                    ) [FactorNum]
+                  ) [NoMoreMulOps]
+                ) [Term]
+              ) [MoreAddOps]
+            ) [Expr]
+          ) [WithOutNumConst]
+        ) [Print]
+        ElseTrue(
+          ElseNonTerm(
+          ) [ElseNonTerm]
+          Print(
+            WithOutNumConst(
+              Expr(
+                NoMinus(
+                ) [NoMinus]
+                NoMoreAddOps(
+                  Term(
+                    NoMoreMulOps(
+                      FactorDsg(
+                        DesignatorSingle(
+                         bodovi
+                        ) [DesignatorSingle]
+                      ) [FactorDsg]
+                    ) [NoMoreMulOps]
+                  ) [Term]
+                ) [NoMoreAddOps]
+              ) [Expr]
+            ) [WithOutNumConst]
+          ) [Print]
+        ) [ElseTrue]
+      ) [IfStatement]
+    ) [MoreStatements]
+  ) [MethodDecl]
+) [Program]
+INFO  22:15:38,676 - =================================== Semantic ===================================
+INFO  22:15:38,707 -  Print count calls = 8
+INFO  22:15:38,708 -  Deklarisanih promenljivih ima = 3
+INFO  22:15:38,710 - Parsiranje uspesno zavrseno!
