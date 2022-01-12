@@ -4,9 +4,6 @@ import java.util.List;
 
 import org.apache.log4j.Logger;
 
-
-import com.sun.prism.j2d.paint.MultipleGradientPaint.CycleMethod;
-
 import rs.ac.bg.etf.pp1.ast.*;
 import rs.etf.pp1.symboltable.*;
 import rs.etf.pp1.symboltable.concepts.*;
